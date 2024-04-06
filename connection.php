@@ -1,13 +1,15 @@
 <?php
-$localhost = "127.0.0.1";
-$username = "root";
-$password = "Blessed2018!";
-$dbname = "class";
+$localhost = "172.16.100.8";
+$username = "prakash";
+$password = "a";
+$dbname = "prakashdb";
 
-// create connection
+
+// Create connection
 $connect = new mysqli($localhost, $username, $password, $dbname);
 
-// check connection
-if($connect->connect_error) {
-	die("connection failed : " . $connect->connect_error);
-} 
+
+// Check connection
+if ($connect->connect_error) {
+    die("Connection failed: " . $connect->connect_error);
+}
