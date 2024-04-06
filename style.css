@@ -1,29 +1,167 @@
-.container{
-margin-top: 15px;
-align-content: center;
-height: 650px;
-width: 600px;
-border-radius: 25px;
-border: 2px solid #73AD21;
+/* Global Styles */
+body {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+
+.container {
+  margin-top: 50px;
+}
+
+
+/* Form Styles */
+.card {
+  background-color: #2d2d2d;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.card-header {
+  background-color: #383838;
+  border-bottom: none;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.card-header h4 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+
+.card-body {
+  padding: 30px;
+}
+
+
+.form-label {
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.form-control {
+  background-color: #383838;
+  border: none;
+  color: #fff;
+}
+
+
+.form-control:focus {
+  background-color: #383838;
+  color: #fff;
+  box-shadow: none;
+}
+
+
+.form-check-input {
+  background-color: #383838;
+  border: none;
+}
+
+
+.form-check-input:checked {
+  background-color: #007bff;
+}
+
+
+.form-check-label {
+  color: #fff;
+}
+
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+
+.btn-info {
+  background-color: #17a2b8;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+
+.btn-info:hover {
+  background-color: #117a8b;
+  color: #fff;
+}
+
+
+/* Fetched Data Page Styles */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.table {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+
+.table th {
+  background-color: #383838;
+  color: #fff;
+}
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #383838;
+}
+
+
+.table-striped tbody tr:hover {
+  background-color: #424242;
+}
+
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
 
 
 
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
 }
-#textbox{
-    width: 556px auto; 
-    height: 90px; 
-    
+
+
+.btn-danger:hover {
+  background-color: #c82333;
 }
-.container #viewdata{
-  width: 556px auto; 
-}
-input[type="radio"]{
-    margin: 0 15px 0 15px;
-  }
-  #send{
-      margin-left: 100px;
-  }
-  #sucess{
-      align-content: center;
-	color: #73AD21;
-  }
