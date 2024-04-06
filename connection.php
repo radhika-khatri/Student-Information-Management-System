@@ -1,8 +1,8 @@
 <?php
-$localhost = "172.16.100.8";
-$username = "prakash";
-$password = "a";
-$dbname = "prakashdb";
+$localhost = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 
 // Create connection
